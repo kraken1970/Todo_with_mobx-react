@@ -1,0 +1,22 @@
+.Form {
+  &-group {
+    display: flex;
+    margin-bottom: 1rem;
+
+    &--contentRight {
+      justify-content: flex-end;
+    }
+  }
+
+  &-label {
+    min-width: 7em;
+  }
+
+  &-input {
+    flex-grow: 1;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 1px solid gray;
+    border-radius: 0.25rem;
+  }
+}
